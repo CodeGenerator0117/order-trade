@@ -25,6 +25,9 @@ This application simulates a cryptocurrency trading environment where users can 
 ### Real-time Notifications
 - Notifications alert users when orders are filled based on market conditions.
 
+## Node version
+- 18.0.0
+  
 ## Installation
 
 1. **Clone the repository:**
