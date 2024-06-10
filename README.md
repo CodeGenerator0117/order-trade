@@ -34,7 +34,7 @@ This application simulates a cryptocurrency trading environment where users can 
 
 2. **Navigate to the project directory:**
    ```bash
-   cd order-trade-sim
+   cd order-trade
    ```
 
 3. **Install dependencies:**
