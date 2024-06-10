@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.react-financial-charts-ew-resize-cursor {
+  cursor: pointer;
+}
+
+.react-no-select {
+  user-select: none;
+}
+
+.order-form {
+  background-color: #222;  /* Dark background for the form */
+  margin-top: 30px;
+  padding: 20px;
+  border-radius: 5px;
+  color: white;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-control {
+  width: 100%;
+  padding: 8px 10px;
+  background-color: #333;
+  border: 1px solid #444;
+  color: white;
+  border-radius: 4px;
+}
+
+.btn-success {
+  background-color: #28a745; /* Green color for buy button */
+}
+
+.btn-danger {
+  background-color: #dc3545; /* Red color for sell button */
+}
+
+/* Styling for react-rangeslider */
+.rangeslider {
+  background-color: #444; /* Slider track */
+}
+
+.rangeslider .rangeslider__fill {
+  background-color: #04a; /* Fill part of the slider */
+}
+
+.rangeslider .rangeslider__handle {
+  background-color: #666; /* Handle of the slider */
+}
+
+.order-book {
+  background-color: #222;
+  color: #fff;
+  width: 100%;
+  overflow-y: auto;
+  margin: 0 10px;
+}
+
+.order-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid #444;
+}
+
+.order-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 10px;
+}
+
+.order-row.buy {
+  color: #063;
+}
+
+.order-row.sell {
+  color: #630;
+}
+
+.order-row span, .order-header span {
+  width: 33.33%;
+  text-align: center;
+}
